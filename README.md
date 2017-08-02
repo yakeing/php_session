@@ -8,7 +8,7 @@ Author [yakeing](http://weibo.com/yakeing)
 
 [![image](https://oauth.applinzi.com/SvgLabel/4D4D4D/Language/007EC6/PHP/image.svg)](https://github.com/yakeing/session/blob/master/session.php)
 
-[![image](https://oauth.applinzi.com/SvgLabel/4D4D4D/Version/97CA00/1.2/image.svg)](https://github.com/yakeing/session)
+[![image](https://oauth.applinzi.com/SvgLabel/4D4D4D/Version/97CA00/1.3/image.svg)](https://github.com/yakeing/session)
 
 ### INITIALIZATION 
 
