@@ -3,7 +3,7 @@
   *  SESSION CLASS
   *
   * @author http://weibo.com/yakeing
-  * @version 1.2
+  * @version 1.3
   * $expire Default server 180 minutes client end
   * $uid user ID, Default automatic generation
   *
@@ -41,7 +41,7 @@ class session{
 
 	//Set up a session Value
 	function Set($name, $value){
-		if(is_scalar($value)){
+		if(is_scalar($value) || is_array( $value)){
 			$_SESSION[$name] = $value;
 			return true;
 		}
