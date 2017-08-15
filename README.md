@@ -1,5 +1,5 @@
 # SESSION
-PHP SESSION CLASS
+This is a SESSION class function package, use more easily, just a few simple functions can use it.
 
 #### Github
 
