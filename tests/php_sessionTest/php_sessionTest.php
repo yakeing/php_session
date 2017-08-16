@@ -24,8 +24,8 @@ class php_sessionTest extends TestCase{
     */
   public function testGetValue(array $args){
     list($session, $name, $value) = $args;
-    $get = $session->get($name); //Get a session Value
-    $this->assertEquals($value, $get);
+    //$get = $session->get($name); //Get a session Value
+    $this->assertEquals($value, $session);
     $session->deletes($name); //Write off a session Value
     $getNull = $session->get($name); //Get a session Value
     $this->assertFalse($getNull);
