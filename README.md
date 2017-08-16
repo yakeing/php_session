@@ -4,7 +4,7 @@ This is a SESSION class function package, use more easily, just a few simple fun
 
 #### Travis CI
 
-[![Travis-ci](https://api.travis-ci.org/yakeing/php_session.svg)](https://travis-ci.org/yakeing/php_session)
+[![Travis-ci](https://api.travis-ci.org/yakeing/php_session.svg?branch=master)](https://travis-ci.org/yakeing/php_session)
 
 #### Packagist
 
