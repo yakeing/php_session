@@ -16,10 +16,9 @@ script: phpunit --stderr
 after_script:
   - pwd
 #  - cd ../
-#  - git init
+##  - git init
 #  - git config --global user.name "yakeing"
 #  - git config --global user.email "yakeing@gmail.com"
 #  - git tag v1.3
 #  - git show v1.3
-#  - git tag -d v1.01
 #  - git push --force --quiet "https://${TOKEN}@github.com/yakeing/php_session.git" master:master
