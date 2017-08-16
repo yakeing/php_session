@@ -15,12 +15,13 @@ class php_sessionTest extends TestCase{
     $session = new session($expire, $uid, $name);
     $name = 'admin';
     $value = 'pass';
-    $ret = $session->set($name, $value); //Set up a session Value
-    $this->assertTrue($ret);
-    $this->assertSessionHas($name, $value);
-    $ret = $session->get($name); //Get a session Value
-    $this->assertEquals($value, $ret);
+    $set = $session->set($name, $value); //Set up a session Value
+    $this->assertTrue($set);
+    $get = $session->get($name); //Get a session Value
+    $this->assertEquals($value, $get);
     $session->deletes($name); //Write off a session Value
+    $get = $session->get($name); //Get a session Value
+    $this->assertEquals(false, $get);
     $this->assertSessionMissing($name);
   }
 
