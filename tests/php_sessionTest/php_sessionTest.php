@@ -22,7 +22,6 @@ class php_sessionTest extends TestCase{
     $session->deletes($name); //Write off a session Value
     $get = $session->get($name); //Get a session Value
     $this->assertEquals(false, $get);
-    $this->assertSessionMissing($name);
   }
 
 }
