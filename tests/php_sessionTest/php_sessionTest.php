@@ -34,5 +34,4 @@ class php_sessionTest extends TestCase{
     $John = $session->get('John');
     $this->assertEquals(false, $John);
   }
-
 }
