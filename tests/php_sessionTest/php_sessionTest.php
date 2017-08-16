@@ -21,12 +21,12 @@ class php_sessionTest extends TestCase{
     $name = 'admin';
     $value = 'pass';
     $set = $session->set($name, $value); //Set up a session Value
-    $this->assertTrue($set);
     $get = $session->get($name); //Get a session Value
-    $this->assertEquals($value, $get);
     $session->deletes($name); //Write off a session Value
-    $get = $session->get($name); //Get a session Value
-    $this->assertEquals(false, $get);
+    $getNull = $session->get($name); //Get a session Value
+    $this->assertTrue($set);
+    $this->assertEquals($value, $get);
+    $this->assertEquals(false, $getNull);
   }
 
 }
