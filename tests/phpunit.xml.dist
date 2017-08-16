@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="./bootstrap.php" colors="true">
+    <testsuites>
+        <testsuite name="php_session Test Suite">
+            <directory>./php_sessionTest/</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">../src/php_session</directory>
+            <exclude>
+                <directory>../vendor</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>
