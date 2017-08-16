@@ -7,7 +7,7 @@ use PHPUnit\Framework\TestCase;
 
 class php_sessionTest extends TestCase{
 
-  public function testSet(){
+  public function testSetValue(){
     $session = new session();
     $expire = 180;
     $uid = md5('uid');
@@ -22,9 +22,9 @@ class php_sessionTest extends TestCase{
   }
 
   /**
-  * @depends testSet
+  * @depends testSetValue
   */
-  public function testGet(array $args){
+  public function testGetValue(array $args){
     list($session, $name, $value) = $args;
     $ret = $session->get($name); //Get a session Value
     $this->assertEquals($value, $ret);
@@ -35,4 +35,5 @@ class php_sessionTest extends TestCase{
     $John = $session->get('John')
     $this->assertEquals(false, $John);
   }
+
 }
