@@ -2,16 +2,16 @@
 
 This is a SESSION class function package, use more easily, just a few simple functions can use it.
 
-#### Travis CI
+### Travis CI
 
 [![Travis-ci](https://api.travis-ci.org/yakeing/php_session.svg?branch=master)](https://travis-ci.org/yakeing/php_session)
 
-#### Packagist
+### Packagist
 
 [![Version](http://img.shields.io/packagist/v/yakeing/php_session.svg)](https://packagist.org/packages/yakeing/php_session)
 [![Downloads](http://img.shields.io/packagist/dt/yakeing/php_session.svg)](https://packagist.org/packages/yakeing/php_session)
 
-#### Github
+### Github
 
 [![Downloads](https://img.shields.io/github/downloads/yakeing/php_session/total.svg)](https://github.com/yakeing/php_session)
 [![Size](https://img.shields.io/github/size/yakeing/php_session/src/php_session/session.php.svg)](https://github.com/yakeing/php_session)
@@ -53,13 +53,13 @@ Use [Composer](https://getcomposer.org) to install the library.
     $session->destroy(); //End all session Value
 ```
 
-### SINA CLOUD SERVICES
+SINA CLOUD SERVICES
+---
 
 SAE provides a solution for Memcache storage Session
 
 [MemcacheSessionHandler](http://www.sinacloud.com/doc/sae/php/runtime.html#session)
 
----
 
 Donate
 ---
