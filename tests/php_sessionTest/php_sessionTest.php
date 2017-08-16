@@ -11,6 +11,7 @@ class php_sessionTest extends TestCase{
     $expire = 180;
     $uid = md5('uid');
     $name = "MYSESSION";
+    @ob_start(); //session_start(): Cannot send session cookie
     $session = new session($expire, $uid, $name);
     $name = 'admin';
     $value = 'pass';
