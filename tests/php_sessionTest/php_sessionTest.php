@@ -7,7 +7,7 @@ use PHPUnit\Framework\TestCase;
 
 class php_sessionTest extends TestCase{
 
-  public function testSetValue(){
+  public function testSession(){
     $expire = 180;
     $uid = md5('uid');
     $name = "MYSESSION";
@@ -16,23 +16,12 @@ class php_sessionTest extends TestCase{
     $name = 'admin';
     $value = 'pass';
     $ret = $session->set($name, $value); //Set up a session Value
-    $session->set('John', 'F8aJ0e');
     $this->assertTrue($ret);
-    return array($session, $name, $value);
-  }
-
-  /**
-  * @depends testSetValue
-  */
-  public function testGetValue(array $args){
-    list($session, $name, $value) = $args;
+    $this->assertSessionHas($name, $value);
     $ret = $session->get($name); //Get a session Value
     $this->assertEquals($value, $ret);
     $session->deletes($name); //Write off a session Value
-    $retNull = $session->get($name);
-    $this->assertEquals(false, $retNull);
-    $session->destroy(); //End all session Value
-    $John = $session->get('John');
-    $this->assertEquals(false, $John);
+    $this->assertSessionMissing($name);
   }
+
 }
