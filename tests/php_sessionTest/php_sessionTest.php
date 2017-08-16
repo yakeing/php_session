@@ -8,7 +8,6 @@ use PHPUnit\Framework\TestCase;
 class php_sessionTest extends TestCase{
 
   public function testSetValue(){
-    $session = new session();
     $expire = 180;
     $uid = md5('uid');
     $name = "MYSESSION";
