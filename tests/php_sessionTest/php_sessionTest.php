@@ -1,5 +1,5 @@
 <?php
-namespace pphp_sessionTest;
+namespace php_sessionTest;
 
 use php_session;
 use php_session\session;
