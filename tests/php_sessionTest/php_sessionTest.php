@@ -7,12 +7,7 @@ use PHPUnit\Framework\TestCase;
 
 class php_sessionTest extends TestCase{
 
-  /**
-     * @covers session::__construct
-     * @covers session::set
-     * @covers session::get
-     * @covers session::deletes
-     */
+
   public function testSession(){
     $expire = 180;
     $uid = md5('uid');
