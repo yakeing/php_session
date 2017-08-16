@@ -21,7 +21,17 @@ This is a SESSION class function package, use more easily, just a few simple fun
 
 BY: [yakeing](http://weibo.com/yakeing)
 
-### INITIALIZATION
+### Installation
+
+Use [Composer](https://getcomposer.org) to install the library.
+
+```
+
+    $ composer require yakeing/php_jwsign
+
+```
+
+### session init
 
 - [x] example
 ```php
