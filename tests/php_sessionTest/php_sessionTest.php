@@ -16,6 +16,8 @@ class php_sessionTest extends TestCase{
     $value = 'pass';
     $set = $session->set($name, $value); //Set up a session Value
     $this->assertTrue($set);
+    $get = $session->get($name); //Get a session Value
+    var_dump($get);
     return array($session, $name, $value);
   }
 
