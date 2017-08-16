@@ -8,8 +8,8 @@
   * $uid user ID, Default automatic generation
   *
   * 'session_name' Can customize session's name
-  * SAE provides a solution for Memcache storage Session
   *
+  * SAE provides a solution for Memcache storage Session
   *  PHP 5.3 Edition
   *  session_set_save_handler(
   *    array($handler, 'open'),
