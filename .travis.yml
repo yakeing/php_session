@@ -12,3 +12,6 @@ before_install:
   - cd tests
 
 script: phpunit --stderr
+after_script:
+  - git tag -a v1.3
+  - git push origin --tags
