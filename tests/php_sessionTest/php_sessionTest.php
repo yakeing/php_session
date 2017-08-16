@@ -16,9 +16,8 @@ class php_sessionTest extends TestCase{
     $name = 'admin';
     $value = 'pass';
     $ret = $session->set($name, $value); //Set up a session Value
-    //$this->assertCookie($name);
-    $this->assertTrue($ret);
     $session->set('John', 'F8aJ0e');
+    $this->assertTrue($ret);
     return array($session, $name, $value);
   }
 
