@@ -28,10 +28,10 @@ class php_sessionTest extends TestCase{
     $ret = $session->get($name); //Get a session Value
     $this->assertEquals($value, $ret);
     $session->deletes($name); //Write off a session Value
-    $retNull = $session->get($name)
+    $retNull = $session->get($name);
     $this->assertEquals(false, $retNull);
     $session->destroy(); //End all session Value
-    $John = $session->get('John')
+    $John = $session->get('John');
     $this->assertEquals(false, $John);
   }
 
