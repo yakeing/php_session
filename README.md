@@ -8,19 +8,16 @@ This is a SESSION class function package, use more easily, just a few simple fun
 
 ### Packagist
 
-[![Version](http://img.shields.io/packagist/v/yakeing/php_session.svg)](https://packagist.org/packages/yakeing/php_session)
+[![Version](http://img.shields.io/packagist/v/yakeing/php_session.svg)](https://packagist.org/packages/yakeing/php_session/releases)
 [![Downloads](http://img.shields.io/packagist/dt/yakeing/php_session.svg)](https://packagist.org/packages/yakeing/php_session)
 
 ### Github
 
 [![Downloads](https://img.shields.io/github/downloads/yakeing/php_session/total.svg)](https://github.com/yakeing/php_session)
-[![Size](https://img.shields.io/github/size/yakeing/php_session/src/php_session/session.php.svg)](https://github.com/yakeing/php_session)
-[![tag](https://img.shields.io/github/tag/yakeing/php_session.svg)](https://github.com/yakeing/php_session)
-[![Language](https://img.shields.io/github/license/yakeing/php_session.svg)](https://github.com/yakeing/php_session)
-[![Language](https://img.shields.io/github/languages/top/yakeing/php_session.svg)](https://github.com/yakeing/php_session)
-
-
-BY: [yakeing](http://weibo.com/yakeing)
+[![Size](https://img.shields.io/github/size/yakeing/php_session/src/php_session/session.php.svg)](https://github.com/yakeing/php_session/blob/master/src/php_session/session.php)
+[![tag](https://img.shields.io/github/tag/yakeing/php_session.svg)](https://github.com/yakeing/php_session/releases)
+[![Language](https://img.shields.io/github/license/yakeing/php_session.svg)](https://github.com/yakeing/php_session/blob/master/LICENSE)
+[![Php](https://img.shields.io/github/languages/top/yakeing/php_session.svg)](https://github.com/yakeing/php_session)
 
 ### Installation
 
@@ -79,3 +76,10 @@ Your donation makes CODE better.
  Alipay (支付宝赞助)
 
  ![Alipay](https://raw.githubusercontent.com/yakeing/Content/master/Donate/Alipay.png)
+
+Author
+---
+
+weibo: [yakeing](https://weibo.com/yakeing)
+
+twitter: [yakeing](https://twitter.com/yakeing)
