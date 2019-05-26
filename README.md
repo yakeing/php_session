@@ -8,7 +8,7 @@ This is a SESSION class function package, use more easily, just a few simple fun
 
 ### Packagist
 
-[![Version](http://img.shields.io/packagist/v/yakeing/php_session.svg)](https://packagist.org/packages/yakeing/php_session/releases)
+[![Version](http://img.shields.io/packagist/v/yakeing/php_session.svg)](https://github.com/yakeing/php_session/releases)
 [![Downloads](http://img.shields.io/packagist/dt/yakeing/php_session.svg)](https://packagist.org/packages/yakeing/php_session)
 
 ### Github
