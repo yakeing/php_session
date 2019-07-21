@@ -1,5 +1,7 @@
 <?php
 namespace php_sessionTest;
+use php_session;
+use php_session\session;
 use PHPUnit\Framework\TestCase;
 class php_sessionTest extends TestCase{
 
