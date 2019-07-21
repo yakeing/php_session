@@ -13,7 +13,6 @@ matrix:
 before_install:
   - phpenv config-rm xdebug.ini
   - composer self-update && composer install --no-interaction
-  - ls -R
   - cd tests
 
 script: phpunit --stderr
