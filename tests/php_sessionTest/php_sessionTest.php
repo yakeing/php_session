@@ -1,10 +1,18 @@
 <?php
 namespace php_sessionTest;
-use session;
+use php_session;
+use php_session\session;
 use PHPUnit\Framework\TestCase;
 class php_sessionTest extends TestCase{
 
   public function testSession(){
+    
+    $included_files = get_included_files();
+    foreach ($included_files as $filename) {
+        echo "$filename\n";
+    }
+    
+    
     $expire = 180;
     $uid = md5('uid');
     $name = "MYSESSION";
