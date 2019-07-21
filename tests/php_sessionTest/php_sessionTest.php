@@ -1,6 +1,5 @@
 <?php
 namespace php_sessionTest;
-
 use PHPUnit\Framework\TestCase;
 class php_sessionTest extends TestCase{
 
@@ -8,7 +7,7 @@ class php_sessionTest extends TestCase{
     $expire = 180;
     $uid = md5('uid');
     $name = "MYSESSION";
-    $session = new \php_session\session($expire, $uid, $name);
+    $session = new session($expire, $uid, $name);
     $name = 'admin';
     $value = 'pass';
     $set = $session->set($name, $value); //Set up a session Value
