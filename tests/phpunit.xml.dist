@@ -2,7 +2,7 @@
 <phpunit bootstrap="./bootstrap.php" colors="true">
     <testsuites>
         <testsuite name="php_session Test Suite">
-            <directory>./php_sessionTest</directory>
+            <directory suffix=".php">./php_sessionTest</directory>
         </testsuite>
     </testsuites>
     <filter>
