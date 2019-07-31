@@ -10,7 +10,7 @@ php:
 matrix:
   fast_finish: true
 
-branches
+branches:
   except:
   - /^untagged/
 
@@ -26,8 +26,8 @@ deploy:
   api_key:
     secure: ${GITHUB_TOKEN}
   file_glob: true
-  file: *.zip
-  file: *.tar.gz
+  file: directory/*.zip
+  file: directory/*.tar.gz
   skip_cleanup: true
   on:
     tags: true
