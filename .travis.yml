@@ -10,6 +10,10 @@ php:
 matrix:
   fast_finish: true
 
+branches
+  except:
+  - /^untagged/
+
 before_install:
   - phpenv config-rm xdebug.ini
   - composer self-update && composer install --no-interaction
