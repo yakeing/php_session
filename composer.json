@@ -12,8 +12,8 @@
         }
     ],
     "autoload": {
-        "psr-0": {
-            "php_session": "src/"
+        "psr-4": {
+            "php_session\\": "src/"
         }
     },
     "require": {
