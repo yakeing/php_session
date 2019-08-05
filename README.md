@@ -14,7 +14,7 @@ This is a SESSION class function package, use more easily, just a few simple fun
 ### Github
 
 [![Downloads](https://img.shields.io/github/downloads/yakeing/php_session/total.svg)](https://github.com/yakeing/php_session)
-[![Size](https://img.shields.io/github/size/yakeing/php_session/src/php_session/session.php.svg)](https://github.com/yakeing/php_session/blob/master/src/php_session/session.php)
+[![Size](https://img.shields.io/github/size/yakeing/php_session/src/session.php.svg)](https://github.com/yakeing/php_session/blob/master/src/php_session/session.php)
 [![tag](https://img.shields.io/github/tag/yakeing/php_session.svg)](https://github.com/yakeing/php_session/releases)
 [![Language](https://img.shields.io/github/license/yakeing/php_session.svg)](https://github.com/yakeing/php_session/blob/master/LICENSE)
 [![Php](https://img.shields.io/github/languages/top/yakeing/php_session.svg)](https://github.com/yakeing/php_session)
