@@ -30,7 +30,7 @@ class session{
 			$handler = new sinacloud\sae\MemcacheSessionHandler();
 			session_set_save_handler($handler, true);
 		}
-		session_cache_limiter('private');
+		@session_cache_limiter('private');
 		if(is_int($expire)){
 			session_cache_expire($expire);
 			session_set_cookie_params($expire*60);
