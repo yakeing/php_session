@@ -35,8 +35,8 @@ class session{
 			@session_cache_expire($expire);
 			@session_set_cookie_params($expire*60);
 		}
-		if(!empty($uid)) session_id($uid);
-		session_name($name);
+		if(!empty($uid)) @session_id($uid);
+		@session_name($name);
 		@session_start();
 	} //END __construct
 
