@@ -21,7 +21,7 @@
         "ext-session": "*"
     },
     "require-dev": {
-        "satooshi/php-coveralls":"2.1",
+        "satooshi/php-coveralls":"^2.1",
          "phpunit/phpunit": "5.7"
     },
     "extra":{
