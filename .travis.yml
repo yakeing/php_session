@@ -19,7 +19,8 @@ before_install:
   - cd tests
 
 script:
-  - phpunit --stderr --coverage-clover="../logs/coverage.xml"
+  - phpunit --stderr
+  - phpunit --coverage-clover="../logs/coverage.xml"
 
 after_success:
   - cat ../logs/coverage.xml
