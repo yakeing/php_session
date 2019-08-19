@@ -23,6 +23,9 @@
     "require-dev": {
          "phpunit/phpunit": "5.7"
     },
+    "scripts": {
+   "report-coverage": "codecov"
+    },
     "extra":{
         "branch-alias":{
             "dev-master": "1.x-dev"
