@@ -14,10 +14,11 @@ before_install:
   - phpenv config-rm xdebug.ini
   - composer self-update && composer install --no-interaction
   - tar -zcf /tmp/Core.tar.gz src
+  - mkdir -p build/logs
   - cd tests
 
 script:
-    - phpunit --stderr --coverage-clover=coverage.xml
+    - phpunit --stderr --coverage-clover=../logs/coverage.xml
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
