@@ -18,9 +18,10 @@ before_install:
   - cd tests
 
 script:
-    - phpunit --stderr --coverage-clover=../logs/coverage.xml
+  - phpunit --stderr --coverage-clover="../logs/coverage.xml"
 
 after_success:
+  - cd ../logs/coverage.xml
   - bash <(curl -s https://codecov.io/bash)
 
 deploy:
