@@ -21,7 +21,7 @@ script:
   - phpunit --stderr --coverage-clover="../logs/coverage.xml"
 
 after_success:
-  - cd ../logs/coverage.xml
+  - cat ../logs/coverage.xml
   - bash <(curl -s https://codecov.io/bash)
 
 deploy:
