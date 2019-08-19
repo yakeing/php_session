@@ -37,7 +37,7 @@ class session{
 		}
 		if(!empty($uid)) session_id($uid);
 		session_name($name);
-		session_start();
+		@session_start();
 	} //END __construct
 
 	//Set up a session Value
