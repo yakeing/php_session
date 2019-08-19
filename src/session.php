@@ -28,12 +28,12 @@ class session{
 	function __construct($expire = false, $uid = false, $name = "MYSESSION"){
 		if($this->mcsession){//PHP 5.6 Edition
 			$handler = new sinacloud\sae\MemcacheSessionHandler();
-			session_set_save_handler($handler, true);
+			@session_set_save_handler($handler, true);
 		}
 		@session_cache_limiter('private');
 		if(is_int($expire)){
-			session_cache_expire($expire);
-			session_set_cookie_params($expire*60);
+			@session_cache_expire($expire);
+			@session_set_cookie_params($expire*60);
 		}
 		if(!empty($uid)) session_id($uid);
 		session_name($name);
