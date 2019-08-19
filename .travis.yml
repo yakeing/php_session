@@ -16,7 +16,16 @@ before_install:
   - tar -zcf /tmp/Core.tar.gz src
   - cd tests
 
-script: phpunit --stderr
+before_script:
+    - travis_retry composer self-update
+    - travis_retry composer install --no-interaction --prefer-source --dev
+
+script:
+    - phpunit --stderr
+    - vendor/bin/phpunit --coverage-clover=coverage.xml
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
 
 deploy:
   provider: releases
