@@ -6,6 +6,10 @@ This is a SESSION class function package, use more easily, just a few simple fun
 
 [![Travis-ci](https://api.travis-ci.org/yakeing/php_session.svg?branch=master)](https://travis-ci.org/yakeing/php_session)
 
+### codecov
+
+[![codecov](https://codecov.io/gh/yakeing/php_session/branch/master/graph/badge.svg)](https://codecov.io/gh/yakeing/php_session)
+
 ### Packagist
 
 [![Version](http://img.shields.io/packagist/v/yakeing/php_session.svg)](https://github.com/yakeing/php_session/releases)
