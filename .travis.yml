@@ -14,7 +14,6 @@ before_install:
   #- phpenv config-rm xdebug.ini
   - composer self-update && composer install --no-interaction
   - tar -zcf /tmp/Core.tar.gz src
-  - php -v
   - mkdir -p logs
   - cd tests
 
@@ -23,8 +22,9 @@ script:
   - phpunit --coverage-clover="../logs/coverage.xml"
 
 after_success:
-  - cat ../logs/coverage.xml
   - bash <(curl -s https://codecov.io/bash)
+  - php -v
+  - cat ../logs/coverage.xml
 
 deploy:
   provider: releases
