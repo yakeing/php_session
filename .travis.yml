@@ -20,7 +20,7 @@ before_install:
 
 script:
   - phpunit --stderr
-  - phpunit --coverage-clover="../logs/coverage.xml"
+  #- phpunit --coverage-clover="../logs/coverage.xml"
 
 after_success:
   - cat ../logs/coverage.xml
