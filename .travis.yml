@@ -15,8 +15,6 @@ before_install:
   #- phpenv config-rm xdebug.ini
   - composer self-update && composer install --no-interaction --prefer-source --dev
   - tar -zcf /tmp/Core.tar.gz src
-  - mkdir -p logs
- # - cd tests
 
 script:
   - phpunit --stderr
@@ -24,7 +22,7 @@ script:
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
-  - cat ../logs/coverage.xml
+  - cat coverage.xml
 
 deploy:
   provider: releases
@@ -41,5 +39,4 @@ branches:
   - /^untagged/
 
 after_script:
-  - cd ../
   - pwd
