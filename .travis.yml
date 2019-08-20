@@ -16,7 +16,7 @@ before_install:
   - composer self-update && composer install --no-interaction --prefer-source --dev
   - tar -zcf /tmp/Core.tar.gz src
   - mkdir -p logs
-  - cd tests
+ # - cd tests
 
 script:
   - phpunit --stderr
