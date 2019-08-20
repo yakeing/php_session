@@ -19,7 +19,7 @@ before_install:
   - cd tests
 
 script:
-  - phpunit --stderr
+ # - phpunit --stderr
   - phpunit --coverage-clover="/home/travis/build/yakeing/php_session/logs/coverage.xml"
 
 after_success:
