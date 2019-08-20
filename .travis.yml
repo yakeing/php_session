@@ -20,7 +20,7 @@ before_install:
 
 script:
  # - phpunit --stderr
-  - phpunit --coverage-clover="/home/travis/build/yakeing/php_session/logs/coverage.xml"
+  - vendor/bin/phpunit --coverage-clover="/home/travis/build/yakeing/php_session/logs/coverage.xml"
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
