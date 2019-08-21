@@ -71,7 +71,7 @@ class session{
     } //END deletes
 
     //function frees all session variables currently registered.
-    public function Unset(){
+    public function Unsets(){
         session_unset();
     } //END Unset
 
