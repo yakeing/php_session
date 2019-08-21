@@ -56,7 +56,7 @@ Use [Composer](https://getcomposer.org) to install the library.
     $session->Set($name, $value); //Set up a session Value
     $session->Get($name); //Get a session Value
     $session->Deletes($name); //Write off a session Value
-    $session->Unset(); //End all session Value
+    $session->Unsets(); //End all session Value
     $session->Destroy(); //End all session Value
 ```
 
