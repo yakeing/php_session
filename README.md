@@ -2,6 +2,8 @@
 
 This is a SESSION class function package, use more easily, just a few simple functions can use it.
 
+Session Functions [Table of Contents](https://www.php.net/manual/en/ref.session.php)
+
 ### Travis CI
 
 [![Travis-ci](https://api.travis-ci.org/yakeing/php_session.svg?branch=master)](https://travis-ci.org/yakeing/php_session)
@@ -38,9 +40,11 @@ Use [Composer](https://getcomposer.org) to install the library.
 - [x] example
 ```php
     $expire = 180;  //Default server 180 minutes client end
-    $uid = md5('uid'); //user ID, Default automatic generation
-    $name = "MYSESSION";
-    $session = new session($expire, $uid, $name);
+    $id = md5('uid'); //user ID, Default automatic generation
+    $name = "PHPSESSID";
+    $limiter = "private";
+    $handler = null;
+    $session = new session($expire, $id, $name, $limiter, $handler);
 ```
 
 ### FUNCTION
@@ -49,19 +53,12 @@ Use [Composer](https://getcomposer.org) to install the library.
 ```php
     $name = 'admin';
     $value = 'pass';
-    $session->set($name, $value); //Set up a session Value
-    $session->get($name); //Get a session Value
-    $session->deletes($name); //Write off a session Value
-    $session->destroy(); //End all session Value
+    $session->Set($name, $value); //Set up a session Value
+    $session->Get($name); //Get a session Value
+    $session->Deletes($name); //Write off a session Value
+    $session->Unset(); //End all session Value
+    $session->Destroy(); //End all session Value
 ```
-
-SINA CLOUD SERVICES
----
-
-SAE provides a solution for Memcache storage Session
-
-[MemcacheSessionHandler](http://www.sinacloud.com/doc/sae/php/runtime.html#session)
-
 
 Donate
 ---
