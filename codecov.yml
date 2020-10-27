@@ -1,0 +1,5 @@
+# https://docs.codecov.io/docs/ignoring-paths
+#  - "^([A-Za-z0-9_-]+.)+[A-Za-z0-9]+$" #\w-
+#  - "^\..+$"
+ignore:
+  - "tests"
