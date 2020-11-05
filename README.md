@@ -2,7 +2,7 @@
 
 This is a SESSION class function package, use more easily, just a few simple functions can use it.
 
-Session Functions [Table of Contents](https://www.php.net/manual/en/ref.session.php)
+Session Functions [Table of Contents](https://www.php.net/manual/en/ref.session.php).
 
 ### Travis CI badge
 
@@ -58,6 +58,7 @@ Of course, You can go to [Packagist](https://packagist.org/packages/yakeing/php_
 
 [Sponsor](https://github.com/yakeing/Documentation/blob/master/Sponsor/README.md)
 ---
+
 If you've got value from any of the content which I have created, then I would very much appreciate your support by payment donate.
 
 [![Sponsor](https://img.shields.io/badge/-Sponsor-EA4AAA?logo=google%20fit&logoColor=FFFFFF)](https://github.com/yakeing/Documentation/blob/master/Sponsor/README.md)
