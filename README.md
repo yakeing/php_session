@@ -6,11 +6,11 @@ Session Functions [Table of Contents](https://www.php.net/manual/en/ref.session.
 
 ### Travis CI badge
 
-[![Travis-ci](https://api.travis-ci.com/yakeing/php_session.svg?branch=master)](https://travis-ci.com/yakeing/php_session)
+[![Travis-ci](https://api.travis-ci.com/yakeing/php_session.svg?branch=main)](https://travis-ci.com/yakeing/php_session)
 
 ### codecov badge
 
-[![codecov](https://codecov.io/gh/yakeing/php_session/branch/master/graph/badge.svg)](https://codecov.io/gh/yakeing/php_session)
+[![codecov](https://codecov.io/gh/yakeing/php_session/branch/main/graph/badge.svg)](https://codecov.io/gh/yakeing/php_session)
 
 ### Github badge
 
